@@ -1,0 +1,13 @@
+.postShadow {
+  box-shadow: -1px 20px 28px 71px rgba(38, 50, 56, 0.32);
+}
+.setComments {
+  cursor: pointer;
+}
+
+.setLikes i {
+  cursor: pointer;
+}
+.setComments i:hover {
+  color: rgb(23, 49, 26);
+}

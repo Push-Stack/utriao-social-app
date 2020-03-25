@@ -1,0 +1,11 @@
+.followerBorderShadow {
+  box-shadow: 2px -12px 20px -13px rgba(131, 125, 125, 0.76);
+  transition: transform 0.2s;
+}
+
+.followerBorderShadow:hover {
+  box-shadow: 2px -12px 20px -13px rgba(204, 198, 198, 0.575);
+  transform: scale(1.1);
+
+  overflow: hidden;
+}

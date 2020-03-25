@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+.fixed-bottom {
+  background: rgba(0, 0, 0, 0.6);
+}
+.footerBrand {
+  font-family: 'Pacifico', cursive;
+}

@@ -1,0 +1,21 @@
+.singlePhoto img {
+  width: 206px;
+  max-height: 130px;
+  transition: transform 0.2s;
+  filter: grayscale(15%);
+}
+
+.singlePhoto img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 581px) {
+  .singlePhoto img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+  }
+}

@@ -1,0 +1,13 @@
+.profileFluidContainer {
+  padding: 0% 10%;
+}
+
+.profileWrapper {
+  background-color: #183e555b;
+}
+
+@media (max-width: 900px) {
+  .profileFluidContainer {
+    padding: 0;
+  }
+}

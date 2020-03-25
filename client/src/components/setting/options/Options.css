@@ -1,0 +1,8 @@
+.settingOptions li {
+  cursor: pointer;
+}
+
+.settingOptions li:hover {
+  background: rgba(32, 27, 27, 0.8);
+  color: #fff;
+}

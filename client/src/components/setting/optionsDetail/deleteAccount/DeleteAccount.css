@@ -1,0 +1,10 @@
+#deleteAccountForm .control-label {
+  top: 10px;
+  font-size: 11px;
+  line-height: 1.07143;
+  font-weight: bold;
+  color: rgb(116, 111, 111);
+}
+#deleteAccountForm .form-control {
+  border: 1px solid rgb(191, 201, 194);
+}

@@ -1,0 +1,51 @@
+.profileImage {
+  vertical-align: middle;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  border: 2px solid #213b4b5b;
+  box-shadow: 10px 10px 31px 1px rgba(0, 0, 0, 0.76);
+  margin-top: -150px;
+  z-index: 88;
+}
+
+.profileImageButton {
+  margin-top: -190px;
+  /* z-index: 2; */
+}
+.profileCover {
+  box-shadow: 9px 11px 30px 0px rgba(0, 0, 0, 0.75);
+  border: 2px solid #2e2d2d;
+  color: #f3eeee;
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.upload-btn-wrapper input[type='file'] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.profileMenu .nav-item {
+  cursor: pointer;
+
+  box-shadow: 10px 10px 5px 0px rgba(27, 27, 27, 0.445);
+  padding: 1% 2%;
+  margin: 0 2%;
+  color: #e7e7e7;
+  font-weight: bolder;
+
+  border-radius: 10px;
+}
+
+.profileMenu .nav-item:hover {
+  background-color: #183e55b7;
+  color: azure;
+}

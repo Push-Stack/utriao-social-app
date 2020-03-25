@@ -1,0 +1,25 @@
+.settingFluidContainer {
+  padding: 0% 10%;
+}
+
+@media (max-width: 900px) {
+  .settingFluidContainer {
+    padding: 2%;
+  }
+
+  .settingColumns {
+    border-radius: 0%;
+    border-radius: 0;
+  }
+}
+
+.settingWrapper {
+  background-color: rgb(255, 249, 249);
+  background-color: rgba(42, 53, 54, 0.493);
+}
+
+.settingColumns {
+  background-color: rgb(255, 255, 255);
+  border-radius: 2%;
+  padding: 4%;
+}

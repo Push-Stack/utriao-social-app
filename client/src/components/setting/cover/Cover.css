@@ -1,0 +1,21 @@
+#settingCover {
+  position: relative;
+  background: url(/images/settingHead.png);
+  background-size: cover;
+
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  animation: animate 3s linear infinite;
+}
+@keyframes animate {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+
+.settingCoverContent {
+  padding: 6% 6%;
+}

@@ -1,0 +1,9 @@
+.optionsFollowers {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.optionsFollowers:hover {
+  background-color: rgba(31, 48, 58, 0.397);
+  transform: scale(1.1);
+}

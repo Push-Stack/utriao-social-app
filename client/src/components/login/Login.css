@@ -1,0 +1,19 @@
+.login {
+  background-image: url(/images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+.primary-overlay {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+
+  background: rgb(0, 0, 0);
+}
