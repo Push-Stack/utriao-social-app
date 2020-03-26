@@ -47,7 +47,7 @@ Node JS and NPM installed
 
 - For **sendgrid** u need **SENDGRID_API_KEY** variable in config.env
 
-- FOR **nodemail** u need **User and Password** variable in config.env
+- For **nodemail** u need **User and Password** variable in config.env
 
 - To **use SENDGRID email** service u need to have sendgrid account. You need to place SENDGRID API key of your account in SENDGRID_API_KEY variable.After placing API key in variable go to emails directory... open sendgrid.js file and uncomment all exports and then go to account.js file and comment all its exports. Because for default account.js file is being used for email service which is nodemailer. By doing this u will setup sendgrid service for emails.Make sure to also change imports of account.js to sendgrid.js in some files.
 
