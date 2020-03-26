@@ -49,7 +49,7 @@ Node JS and NPM installed
 
 - FOR **nodemail** u need **User and Password** variable in config.env
 
-- To **use SENDGRID email** service u need to have sendgrid account. You need to place SENDGRID API key of your account in SENDGRID_API_KEY variable.After placing API key in variable go to emails directory... open sendgrid.js file and uncomment all exports and then go to account.js file and comment all its exports. Because for default account.js file is being used for email service which is nodemailer. By doing this u will setup sendgrid service for emails.
+- To **use SENDGRID email** service u need to have sendgrid account. You need to place SENDGRID API key of your account in SENDGRID_API_KEY variable.After placing API key in variable go to emails directory... open sendgrid.js file and uncomment all exports and then go to account.js file and comment all its exports. Because for default account.js file is being used for email service which is nodemailer. By doing this u will setup sendgrid service for emails.Make sure to also change imports of account.js to sendgrid.js in some files.
 
 - To **use nodemailer service**.... Place your google account email in User variable like User=youremail...Place your google account password in Password Variable like Password='yourgmailpassword'...Go to this link to allow nodemailer to access your google account for email services [Change Secure App setting](https://myaccount.google.com/lesssecureapps) **Turn it ON**
 
