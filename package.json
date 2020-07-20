@@ -26,7 +26,7 @@
     "sharp": "^0.25.2"
   },
   "devDependencies": {
-    "concurrently": "^5.0.0",
-    "nodemon": "^1.19.4"
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
   }
 }
