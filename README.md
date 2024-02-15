@@ -10,21 +10,21 @@ Node JS and NPM installed
 
 ##### Please read all carefully
 
-- **Clone repository** using git clone or download Zip file
+- Clone the repository using either 'git clone' or by downloading the ZIP file.
 
-- Cd into **cloned repository**
+- Navigate to the cloned repository.
 
-- Run **npm install** command to install all **node js dependencies**
+- Execute the npm install command to install all Node.js dependencies.
 
-- After installing all dependencies cd into **client folder**
+- After installing all dependencies, navigate to the client folder.
 
-- Run **npm install** command again to install **React dependencies**
+- Execute the npm install command again to install React dependencies.
 
-- After installing all dependencies go back to **root directory** and inside config directory **create config.env file.**
+- After installing all dependencies, return to the root directory, and within the config directory, create a file named config.env.
 
-- Inside config.env file u need to **create environment variables** which is essential for App to run otherwise app will crash..
+- Inside the config.env file, you need to define environment variables that are essential for the app to run; otherwise, the app will crash.
 
-- **Environment variables** u need to place in config.env file is
+- The environment variables you need to place in the config.env file are as follows:
 
         MONGO_URI=mongodb://127.0.0.1:27017/utriao for local Server
 
@@ -36,24 +36,24 @@ Node JS and NPM installed
 
          PASSWORD= your password
 
-* **Mongo_URI variable** will be used for connecting to Mongodb Database. You can place here your local mongodb server connection string or remote server.
+* The MONGO_URI variable will be used for connecting to the MongoDB Database. You can place your local MongoDB server connection string or remote server connection string here.
 
-* **JWT_SECRET** will be used for jsonwebtoken Secret Key.
+* The JWT_SECRET will be used as the secret key for JSON Web Tokens (JWT)
 
-* Two services for **email** are included in this App
+* Two services for email are included in this app.
 
              Choose one of them
-           SENDGRID & NODEMailer
+           SENDGRID or NODEMailer
 
-- For **sendgrid** u need **SENDGRID_API_KEY** variable in config.env
+- For SendGrid, you need to include the SENDGRID_API_KEY variable in the config.env file.
 
-- For **nodemail** u need **User and Password** variable in config.env
+- For Nodemailer, you need to include the USER and PASSWORD variables in the config.env file.
 
-- To **use SENDGRID email** service u need to have sendgrid account. You need to place SENDGRID API key of your account in SENDGRID_API_KEY variable.After placing API key in variable go to emails directory... open sendgrid.js file and uncomment all exports and then go to account.js file and comment all its exports. Because for default account.js file is being used for email service which is nodemailer. By doing this u will setup sendgrid service for emails.Make sure to also change imports of account.js to sendgrid.js in some files.
+- To use the SENDGRID email service, you need to have a SendGrid account. Place your SendGrid API key in the SENDGRID_API_KEY variable. After placing the API key in the variable, navigate to the emails directory. Open the sendgrid.js file and uncomment all exports. Then, go to the account.js file and comment out all its exports. This is because the default account.js file is being used for the email service, which is nodemailer. By doing this, you will set up the SendGrid service for emails. Make sure to also change imports from account.js to sendgrid.js in some files.
 
-- To **use nodemailer service**.... Place your google account email in User variable like User=youremail...Place your google account password in Password Variable like Password='yourgmailpassword'...Go to this link to allow nodemailer to access your google account for email services [Change Secure App setting](https://myaccount.google.com/lesssecureapps) **Turn it ON**
+- To use the nodemailer service, put your Google account email in the User variable like User=youremail. Then, add your Google account password in the Password Variable like Password='yourgmailpassword'. Visit the following link to enable nodemailer to access your Google account for email services: [Change Secure App setting](https://myaccount.google.com/lesssecureapps) **Turn it ON**
 
-- After following all instructions you have completely setup App for running. All u need to do is to to run command **npm run dev** in **root directory**. This command will run **both servers nodejs and react**.
+- After following all instructions, you have completely set up the app for running. All you need to do is run the command npm run dev in the root directory. This command will run both the Node.js and React servers.
 
 ---
 
